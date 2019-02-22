@@ -184,7 +184,7 @@ int main ()
 
 ## 05 Factorial
 
-![Flowchart for Factorial](/assignment_01/05_ factorial/factorial_flowchart.png)
+![Flowchart for Factorial](/assignment_01/05_factorial/factorial_flowchart.png)
 
 ```c
 // Algorithm for the program: factorial
