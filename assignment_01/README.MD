@@ -1,5 +1,7 @@
 # Assignment 01
 
+*Compiled with TDM-GCC 5.1.0. Project files are in their respective folders, to be opened with [Orwell Dev-C++](https://sourceforge.net/projects/orwelldevcpp/), the IDE used in this class.*
+
 ```c
 // UTMSPACE_2018-2019-sem2_SCSJ1013_Programming_Techniques_I
 // SX180357CSJS04
