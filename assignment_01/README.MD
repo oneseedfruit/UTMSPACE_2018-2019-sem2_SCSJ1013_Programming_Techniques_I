@@ -9,7 +9,7 @@
 
 ## 01 Distance Between Two Points
 
-![Flowchart for Distance Between Two Points](/01_distance_between_two_points/distance_between_two_points_flowchart.png)
+![Flowchart for Distance Between Two Points](/assignment_01/01_distance_between_two_points/distance_between_two_points_flowchart.png)
 
 ```c
 // Algorithm for the program: distance_between_two_points
@@ -59,7 +59,7 @@ int main ()
 
 ## 02 Total Cost of Apples
 
-![Flowchart for Total Cost of Apples](/02_total_cost_of_apples/total_cost_of_apples_flowchart.png)
+![Flowchart for Total Cost of Apples](/assignment_01/02_total_cost_of_apples/total_cost_of_apples_flowchart.png)
 
 ```c
 // Algorithm for the program: total_cost_of_apples
@@ -92,7 +92,7 @@ int main ()
 
 ## 03 Volume of Cylinder
 
-![Flowchart for Volume of Cylinder](/03_volume_of_cylinder/volume_of_cylinder_flowchart.png)
+![Flowchart for Volume of Cylinder](/assignment_01/03_volume_of_cylinder/volume_of_cylinder_flowchart.png)
 
 ```c
 // Algorithm for the program: volume_of_cylinder
@@ -127,7 +127,7 @@ int main ()
 
 ## 04 Cylinder Parameters
 
-![Flowchart for Cylinder Parameters](/04_cylinder_parameters/cylinder_parameters_flowchart.png)
+![Flowchart for Cylinder Parameters](/assignment_01/04_cylinder_parameters/cylinder_parameters_flowchart.png)
 
 ```c
 // Algorithm for the program: cylinder_parameters
@@ -184,7 +184,7 @@ int main ()
 
 ## 05 Factorial
 
-![Flowchart for Factorial](/05_ factorial/factorial_flowchart.png)
+![Flowchart for Factorial](/assignment_01/05_ factorial/factorial_flowchart.png)
 
 ```c
 // Algorithm for the program: factorial
