@@ -20,6 +20,55 @@
 // 10. Write the values of diameter, perimeter, base_area, lateral_surface, surface, volume to the output.
 // 11. End.
 
+// Input & Output 1
+// 
+// Input
+// Height of the cylinder?: 5
+// Radius of the cylinder?: 3
+
+// Output
+// ===Cylinder Parameters===
+// Diameter: 6.00
+// Perimeter: 18.85
+// Base area: 28.27
+// Lateral surface: 94.25
+// Surface: 150.80
+// Volume: 141.37
+// =========================
+
+// Input & Output 2
+// 
+// Input
+// Height of the cylinder?: 999
+// Radius of the cylinder?: 5.6
+//
+// Output
+// ===Cylinder Parameters===
+// Diameter: 11.20
+// Perimeter: 35.19
+// Base area: 98.52
+// Lateral surface: 35150.65
+// Surface: 35347.69
+// Volume: 98421.82
+// =========================
+
+// Input & Output 3
+//
+// Input
+// Height of the cylinder?: 0.669
+// Radius of the cylinder?: 32.44
+//
+// Output
+// ===Cylinder Parameters===
+// Diameter: 64.88
+// Perimeter: 203.83
+// Base area: 3306.07
+// Lateral surface: 136.36
+// Surface: 6748.49
+// Volume: 2211.76
+// =========================
+
+
 #include <stdio.h>
 #include <math.h>
 

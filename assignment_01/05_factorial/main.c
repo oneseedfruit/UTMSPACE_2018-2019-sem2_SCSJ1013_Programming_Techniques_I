@@ -13,6 +13,34 @@
 // 8. Write the value of number to the output.
 // 9. End.
 
+// Input & Output 1
+//
+// Input
+// Enter a number: 5
+//
+// Output
+// The factorial of 5 is 120 with a for-loop.
+// The factorial of 5 is 120 with recursion.
+
+// Input & Output 2
+//
+// Input
+// Enter a number: 9
+//
+// Output
+// The factorial of 9 is 362880 with a for-loop.
+// The factorial of 9 is 362880 with recursion.
+
+// Input & Output 3
+// 
+// Input 
+// Enter a number: 12
+//
+// Output
+// The factorial of 12 is 479001600 with a for-loop.
+// The factorial of 12 is 479001600 with recursion.
+
+
 #include <stdio.h>
 
 int factorial(int number);

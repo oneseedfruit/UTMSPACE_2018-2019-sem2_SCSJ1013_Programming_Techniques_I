@@ -58,6 +58,41 @@ int main ()
 }
 ```
 
+```c
+// Input & Output 1
+//
+// Input
+// x of point A: -2
+// y of point A: -1
+// x of point B: 4
+// y of point B: 5
+// 
+// Output
+// The distance from point A (-2.00, -1.00) to point B (4.00, 5.00) is 8.49
+
+// Input & Output 2
+//
+// Input
+// x of point A: 99
+// y of point A: 86
+// x of point B: 12
+// y of point B: 33
+//
+// Output
+// The distance from point A (99.00, 86.00) to point B (12.00, 33.00) is 101.87
+
+// Input & Output 3
+//
+// Input
+// x of point A: 5.55
+// y of point A: 6.98
+// x of point B: 13.69
+// y of point B: 99.5
+//
+// Output
+// The distance from point A (5.55, 6.98) to point B (13.69, 99.50) is 92.88
+```
+
 
 ## 02 Total Cost of Apples
 
@@ -89,6 +124,35 @@ int main ()
 	
 	return 0;
 }
+```
+
+```c
+// Input & Output 1
+// 
+// Input
+// How many kg of apples? 10
+// Cost per kg? RM5
+//
+// Output
+// Total cost of apples is RM50.00.
+
+// Input & Output 2
+//
+// Input
+// How many kg of apples? 5.99
+// Cost per kg? RM12.3
+//
+// Output
+// Total cost of apples is RM73.68.
+
+// Input & Output 3
+//
+// Input
+// How many kg of apples? 13
+// Cost per kg? RM999
+//
+// Output
+// Total cost of apples is RM12987.00.
 ```
 
 
@@ -124,6 +188,35 @@ int main ()
 	
 	return 0;
 }
+```
+
+```c
+// Input & Output 1
+//
+// Input
+// Radius of cylinder?: 5
+// Height of cylinder?: 3
+//
+// Output
+// The volume is: 235.62.
+
+// Input & Output 2
+//
+// Input
+// Radius of cylinder?: 3.633
+// Height of cylinder?: 66
+//
+// Output
+// The volume is: 2736.68.
+
+// Input & Output 3
+// 
+// Input
+// Radius of cylinder?: 789
+// Height of cylinder?: 666
+//
+// Output
+// The volume is: 1302501120.00.
 ```
 
 
@@ -183,6 +276,56 @@ int main ()
 }
 ```
 
+```c
+// Input & Output 1
+// 
+// Input
+// Height of the cylinder?: 5
+// Radius of the cylinder?: 3
+
+// Output
+// ===Cylinder Parameters===
+// Diameter: 6.00
+// Perimeter: 18.85
+// Base area: 28.27
+// Lateral surface: 94.25
+// Surface: 150.80
+// Volume: 141.37
+// =========================
+
+// Input & Output 2
+// 
+// Input
+// Height of the cylinder?: 999
+// Radius of the cylinder?: 5.6
+//
+// Output
+// ===Cylinder Parameters===
+// Diameter: 11.20
+// Perimeter: 35.19
+// Base area: 98.52
+// Lateral surface: 35150.65
+// Surface: 35347.69
+// Volume: 98421.82
+// =========================
+
+// Input & Output 3
+//
+// Input
+// Height of the cylinder?: 0.669
+// Radius of the cylinder?: 32.44
+//
+// Output
+// ===Cylinder Parameters===
+// Diameter: 64.88
+// Perimeter: 203.83
+// Base area: 3306.07
+// Lateral surface: 136.36
+// Surface: 6748.49
+// Volume: 2211.76
+// =========================
+```
+
 
 ## 05 Factorial
 
@@ -238,5 +381,34 @@ int factorial(int number)
 		return 1;
 	}	
 }
+```
+
+```c
+// Input & Output 1
+//
+// Input
+// Enter a number: 5
+//
+// Output
+// The factorial of 5 is 120 with a for-loop.
+// The factorial of 5 is 120 with recursion.
+
+// Input & Output 2
+//
+// Input
+// Enter a number: 9
+//
+// Output
+// The factorial of 9 is 362880 with a for-loop.
+// The factorial of 9 is 362880 with recursion.
+
+// Input & Output 3
+// 
+// Input 
+// Enter a number: 12
+//
+// Output
+// The factorial of 12 is 479001600 with a for-loop.
+// The factorial of 12 is 479001600 with recursion.
 ```
 

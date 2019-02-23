@@ -10,6 +10,34 @@
 // 5. Write the value of total to the output.
 // 6. End.
 
+// Input & Output 1
+// 
+// Input
+// How many kg of apples? 10
+// Cost per kg? RM5
+//
+// Output
+// Total cost of apples is RM50.00.
+
+// Input & Output 2
+//
+// Input
+// How many kg of apples? 5.99
+// Cost per kg? RM12.3
+//
+// Output
+// Total cost of apples is RM73.68.
+
+// Input & Output 3
+//
+// Input
+// How many kg of apples? 13
+// Cost per kg? RM999
+//
+// Output
+// Total cost of apples is RM12987.00.
+
+
 #include <stdio.h>
 
 int main () 

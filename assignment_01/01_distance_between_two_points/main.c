@@ -16,6 +16,40 @@
 // 11. Write the value of distance to the output.
 // 12. End.
 
+// Input & Output 1
+//
+// Input
+// x of point A: -2
+// y of point A: -1
+// x of point B: 4
+// y of point B: 5
+// 
+// Output
+// The distance from point A (-2.00, -1.00) to point B (4.00, 5.00) is 8.49
+
+// Input & Output 2
+//
+// Input
+// x of point A: 99
+// y of point A: 86
+// x of point B: 12
+// y of point B: 33
+//
+// Output
+// The distance from point A (99.00, 86.00) to point B (12.00, 33.00) is 101.87
+
+// Input & Output 3
+//
+// Input
+// x of point A: 5.55
+// y of point A: 6.98
+// x of point B: 13.69
+// y of point B: 99.5
+//
+// Output
+// The distance from point A (5.55, 6.98) to point B (13.69, 99.50) is 92.88
+
+
 #include <stdio.h>
 #include <math.h>
 
