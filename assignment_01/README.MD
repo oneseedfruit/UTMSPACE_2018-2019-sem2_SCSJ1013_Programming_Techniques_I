@@ -28,6 +28,7 @@
 // 11. Write the value of distance to the output.
 // 12. End.
 
+
 #include <stdio.h>
 #include <math.h>
 
@@ -107,6 +108,7 @@ int main ()
 // 5. Write the value of total to the output.
 // 6. End.
 
+
 #include <stdio.h>
 
 int main () 
@@ -169,6 +171,7 @@ int main ()
 // 	  value of the pi constant by radius squared by height, store it in volume.
 // 5. Write the value of volume to the output.
 // 6. End.
+
 
 #include <stdio.h>
 #include <math.h>
@@ -242,6 +245,7 @@ int main ()
 // 	  then by height, store it in volume.
 // 10. Write the values of diameter, perimeter, base_area, lateral_surface, surface, volume to the output.
 // 11. End.
+
 
 #include <stdio.h>
 #include <math.h>
@@ -344,6 +348,7 @@ int main ()
 // 9. Write the value of number to the output.
 // 10. End.
 
+
 #include <stdio.h>
 
 int factorial(int number);
@@ -362,7 +367,9 @@ int main ()
 	for (i = number - 1; i > 1; --i)
 	{
 		number *= i;
-	}	
+	}
+	number = number == 0 ? 1 : number;	
+	
 	printf("The factorial of %d is %d with a for-loop.\n", temp, number);
 	
 	// Recursion
