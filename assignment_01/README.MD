@@ -340,8 +340,9 @@ int main ()
 // 5. Multiply number by i and assign it back to number.
 // 6. Decrement i by 1.
 // 7. Go back to step 4.
-// 8. Write the value of number to the output.
-// 9. End.
+// 8. If number is 0, assign 1 to number.
+// 9. Write the value of number to the output.
+// 10. End.
 
 #include <stdio.h>
 
@@ -410,5 +411,14 @@ int factorial(int number)
 // Output
 // The factorial of 12 is 479001600 with a for-loop.
 // The factorial of 12 is 479001600 with recursion.
+
+// Input & Output 4
+//
+// Input
+// Enter a number: 0
+//
+// Output
+// The factorial of 0 is 1 with a for-loop.
+// The factorial of 0 is 1 with recursion.
 ```
 

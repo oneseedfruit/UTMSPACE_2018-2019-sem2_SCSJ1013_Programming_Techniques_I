@@ -10,8 +10,9 @@
 // 5. Multiply number by i and assign it back to number.
 // 6. Decrement i by 1.
 // 7. Go back to step 4.
-// 8. Write the value of number to the output.
-// 9. End.
+// 8. If number is 0, assign 1 to number.
+// 9. Write the value of number to the output.
+// 10. End.
 
 // Input & Output 1
 //
@@ -40,6 +41,15 @@
 // The factorial of 12 is 479001600 with a for-loop.
 // The factorial of 12 is 479001600 with recursion.
 
+// Input & Output 4
+//
+// Input
+// Enter a number: 0
+//
+// Output
+// The factorial of 0 is 1 with a for-loop.
+// The factorial of 0 is 1 with recursion.
+
 
 #include <stdio.h>
 
@@ -59,7 +69,9 @@ int main ()
 	for (i = number - 1; i > 1; --i)
 	{
 		number *= i;
-	}	
+	}
+	number = number == 0 ? 1 : number;	
+	
 	printf("The factorial of %d is %d with a for-loop.\n", temp, number);
 	
 	// Recursion
