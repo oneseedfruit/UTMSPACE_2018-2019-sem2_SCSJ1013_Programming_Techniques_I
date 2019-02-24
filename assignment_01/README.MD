@@ -32,7 +32,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main () 
+int main (void) 
 {
 	float x1, x2, y1, y2, leng_x, leng_y, distance;
 	
@@ -111,7 +111,7 @@ int main ()
 
 #include <stdio.h>
 
-int main () 
+int main (void) 
 {
 	float amount, cost_per_kg, total;
 	
@@ -176,7 +176,7 @@ int main ()
 #include <stdio.h>
 #include <math.h>
 
-int main () 
+int main (void) 
 {
 	float radius, height, volume;
 	
@@ -250,7 +250,7 @@ int main ()
 #include <stdio.h>
 #include <math.h>
 
-int main () 
+int main (void) 
 {
 	float height, radius;
 	float diameter, perimeter, base_area, lateral_surface, surface, volume;
@@ -351,9 +351,9 @@ int main ()
 
 #include <stdio.h>
 
-int factorial(int number);
+int factorial (int number);
 
-int main () 
+int main (void) 
 {
 	int number;
 	
@@ -378,7 +378,7 @@ int main ()
 	return 0;
 }
 
-int factorial(int number) 
+int factorial (int number) 
 {	
 	if (number >= 1)
 	{

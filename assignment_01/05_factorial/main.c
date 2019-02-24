@@ -53,9 +53,9 @@
 
 #include <stdio.h>
 
-int factorial(int number);
+int factorial (int number);
 
-int main () 
+int main (void) 
 {
 	int number;
 	
@@ -80,7 +80,7 @@ int main ()
 	return 0;
 }
 
-int factorial(int number) 
+int factorial (int number) 
 {	
 	if (number >= 1)
 	{

@@ -53,7 +53,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main () 
+int main (void) 
 {
 	float x1, x2, y1, y2, leng_x, leng_y, distance;
 	

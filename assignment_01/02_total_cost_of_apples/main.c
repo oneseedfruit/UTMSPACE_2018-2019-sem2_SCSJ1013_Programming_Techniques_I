@@ -40,7 +40,7 @@
 
 #include <stdio.h>
 
-int main () 
+int main (void) 
 {
 	float amount, cost_per_kg, total;
 	
@@ -55,3 +55,4 @@ int main ()
 	
 	return 0;
 }
+

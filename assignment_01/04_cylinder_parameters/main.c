@@ -72,7 +72,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main () 
+int main (void) 
 {
 	float height, radius;
 	float diameter, perimeter, base_area, lateral_surface, surface, volume;
@@ -100,3 +100,4 @@ int main ()
 	
 	return 0;
 }
+
