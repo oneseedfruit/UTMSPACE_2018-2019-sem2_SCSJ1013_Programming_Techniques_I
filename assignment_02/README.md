@@ -529,12 +529,12 @@ int main (void)
 ```
 
 
-## 05 Three Different Integers: Sum, Average, Product, Smallest and Largest Numbers
+## 05 Three Integers: Sum, Average, Product, Smallest and Largest Numbers
 
-![Flowchart for Largest and Smallest Numbers from a Few Numbers](/assignment_02/05_three_different_integers_largest_smallest/three_different_integers_largest_smallest_flowchart.png)
+![Flowchart for Three Integers: Sum, Average, Product, Smallest and Largest Numbers](/assignment_02/05_three_integers_largest_smallest/three_integers_largest_smallest_flowchart.png)
 
 ```c
-// Algorithm for the program: three_different_integers_largest_smallest
+// Algorithm for the program: three_integers_largest_smallest
 // 1. Begin.
 // 2. Assign 3 to NUMBER_OF_INPUTS as a constant.
 // 3. Assign 0 to sum.

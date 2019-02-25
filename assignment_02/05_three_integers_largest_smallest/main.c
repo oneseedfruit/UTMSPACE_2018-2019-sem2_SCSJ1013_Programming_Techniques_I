@@ -2,7 +2,7 @@
 // SX180357CSJS04
 // Randy Tan Shaoxian
 
-// Algorithm for the program: three_different_integers_largest_smallest
+// Algorithm for the program: three_integers_largest_smallest
 // 1. Begin.
 // 2. Assign 3 to NUMBER_OF_INPUTS as a constant.
 // 3. Assign 0 to sum.
