@@ -185,3 +185,67 @@ int main (void)
 // The root is -0.33.
 ```
 
+
+## Even or Odd Integers
+
+### With Modulus
+
+![Flowchart for Even or Odd Integers With Modulus](/assignment_02/03_01_even_or_odd_integers_modulus/even_or_odd_integers_modulus_flowchart.png)
+
+```c
+// Algorithm for the program: even_or_odd_integers_modulus
+// 1. Begin.
+// 2. Read in the value of an integer, store in number.
+// 3. If number % 2 == 0 go to the next step, otherwise go to step 5.
+// 4. Write number " is even." to the output.
+// 5. Write number " is odd." to the output.
+// 6. End.
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	int number;
+	
+	printf("Enter an integer: ");
+	scanf("%d", &number);
+	
+	if (number % 2 == 0)
+	{
+		printf("%d is even.\n", number);
+	}
+	else
+	{
+		printf("%d is odd.\n", number);
+	}
+	
+	return 0;
+}
+```
+
+```c
+// Input & Output 1
+//
+// Input
+// Enter an integer: 50
+//
+// Output
+// 50 is even.
+
+// Input & Output 2
+//
+// Input
+// Enter an integer: 3
+//
+// Output
+// 3 is odd.
+
+// Input & Output 3
+//
+// Input
+// Enter an integer: 7654
+// 
+// Output
+// 7654 is even.
+```
