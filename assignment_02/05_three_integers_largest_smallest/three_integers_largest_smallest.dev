@@ -1,5 +1,5 @@
 [Project]
-FileName=three_different_integers_largest_smallest.dev
+FileName=three_integers_largest_smallest.dev
 Name=three_different_integers_largest_smallest
 Type=1
 Ver=2
@@ -61,7 +61,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=three_different_integers_largest_smallest_flowchart.png
+FileName=three_integers_largest_smallest_flowchart.png
 Folder=
 Compile=0
 Link=0
