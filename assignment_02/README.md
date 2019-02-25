@@ -186,9 +186,9 @@ int main (void)
 ```
 
 
-## Even or Odd Integers
+## 03 Even or Odd Integers
 
-### With Modulus
+### 03-01 With Modulus
 
 ![Flowchart for Even or Odd Integers With Modulus](/assignment_02/03_01_even_or_odd_integers_modulus/even_or_odd_integers_modulus_flowchart.png)
 
@@ -252,7 +252,7 @@ int main (void)
 ```
 
 
-### With Integer Division and Multiplication
+### 03-02 With Integer Division and Multiplication
 
 ![Flowchart for Even or Odd Integers With Integer Division and Multiplication](/assignment_02/03_02_even_or_odd_integers_divide_multiply/even_or_odd_integers_divide_multiply_flowchart.png)
 
