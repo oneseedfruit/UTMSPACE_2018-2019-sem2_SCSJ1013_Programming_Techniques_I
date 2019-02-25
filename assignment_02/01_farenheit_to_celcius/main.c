@@ -8,9 +8,9 @@
 //     output: temperature in degrees celcius
 //
 // (b) pseudocode:
-//			farenheit = input("Enter a temperature in degrees Farenheit: ")
-//			celcius = (float(farenheit) - 32) * 5 / 9
-//			print("%.2f" % celcius)
+//          farenheit = input("Enter a temperature in degrees Farenheit: ")
+//          celcius = (float(farenheit) - 32) * 5 / 9
+//          print("%.2f" % celcius)
 //
 // (c) flowchart included in the README.md of assignment_02 under "01 Farenheit to Celcius"
 

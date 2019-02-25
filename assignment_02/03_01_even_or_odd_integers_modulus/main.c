@@ -4,11 +4,11 @@
 
 // Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 33
 // (a) pseudocode:
-//			number = int(input("Enter an integer: "))
-//			if number % 2 == 0:
-//			    print(str(number) + " is even.\n")
-//			else:
-//			    print(str(number) + " is odd.\n")
+//            number = int(input("Enter an integer: "))
+//            if number % 2 == 0:
+//                print(str(number) + " is even.\n")
+//            else:
+//                print(str(number) + " is odd.\n")
 // 
 // (b) double selection, if ... else ...
 //     

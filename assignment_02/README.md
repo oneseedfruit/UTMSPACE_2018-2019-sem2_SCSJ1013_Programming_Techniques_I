@@ -20,9 +20,9 @@
 //     output: temperature in degrees celcius
 //
 // (b) pseudocode:
-//			farenheit = input("Enter a temperature in degrees Farenheit: ")
-//			celcius = (float(farenheit) - 32) * 5 / 9
-//			print("%.2f" % celcius)
+//          farenheit = input("Enter a temperature in degrees Farenheit: ")
+//          celcius = (float(farenheit) - 32) * 5 / 9
+//          print("%.2f" % celcius)
 //
 // (c) flowchart included in the README.md of assignment_02 under "01 Farenheit to Celcius"
 
@@ -207,11 +207,11 @@ int main (void)
 ```c
 // Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 33
 // (a) pseudocode:
-//			number = int(input("Enter an integer: "))
-//			if number % 2 == 0:
-//			    print(str(number) + " is even.\n")
-//			else:
-//			    print(str(number) + " is odd.\n")
+//            number = int(input("Enter an integer: "))
+//            if number % 2 == 0:
+//                print(str(number) + " is even.\n")
+//            else:
+//                print(str(number) + " is odd.\n")
 // 
 // (b) double selection, if ... else ...
 // 
