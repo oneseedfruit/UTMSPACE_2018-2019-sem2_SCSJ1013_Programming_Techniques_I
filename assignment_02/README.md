@@ -254,12 +254,14 @@ int main (void)
 
 ### With Integer Division and Multiplication
 
+![Flowchart for Even or Odd Integers With Integer Division and Multiplication](/assignment_02/03_02_even_or_odd_integers_divide_multiply/even_or_odd_integers_divide_multiply_flowchart.png)
+
 ```c
 // ALgorithm for the program: even_or_odd_integers_divide_multiply
 // 1. Begin.
 // 2. Read in the value of an integer, store it in number.
 // 3. Do an integer divsion on number, divide it by 2 and store it in test_number.
-// 4. Multiply test_number by 2 and assign it back to test_number.
+// 4. Multiply test_number by 2 as an integer and assign it back to test_number.
 // 5. If test_number == number, go to the next step, otherwise go to step 8.
 // 6. Write number " is even." to the output.
 // 7. Go to step 9.
