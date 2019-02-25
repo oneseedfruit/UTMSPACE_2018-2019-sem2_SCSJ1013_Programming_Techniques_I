@@ -2,6 +2,18 @@
 // SX180357CSJS04
 // Randy Tan Shaoxian
 
+// Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 33
+// (a) pseudocode:
+//			number = int(input("Enter an integer: "))
+//			if number % 2 == 0:
+//			    print(str(number) + " is even.\n")
+//			else:
+//			    print(str(number) + " is odd.\n")
+// 
+// (b) double selection, if ... else ...
+// 
+// (c) flowchart included in the README.md of assignment_02 under "03 Even or Odd Integers" "03-01 With Modulus"
+
 // Algorithm for the program: even_or_odd_integers_modulus
 // 1. Begin.
 // 2. Read in the value of an integer, store it in number.

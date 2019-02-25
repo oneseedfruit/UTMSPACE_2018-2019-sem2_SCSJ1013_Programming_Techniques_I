@@ -14,6 +14,18 @@
 ![Flowchart for Farenheit to Celcius](/assignment_02/01_farenheit_to_celcius/farenheit_to_celcius_flowchart.png)
 
 ```c
+// Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 19
+// (a) input: tempeerature in degrees farenheit
+// 	   process: celcius = (farenheit - 32) * 5 / 9
+// 	   output: temperature in degrees celcius
+//
+// (b) pseudocode:
+//			farenheit = input("Enter a temperature in degrees Farenheit: ")
+//			celcius = (float(farenheit) - 32) * 5 / 9
+//			print("%.2f" % celcius)
+//
+// (c) flowchart included in the README.md of assignment_02 under "01 Farenheit to Celcius"
+
 // Algorithm for the program: farenheit_to_celcius
 // 1. Begin.
 // 2. Read in the value of the temperature in degrees Farenheit, store it in farenheit.
@@ -193,6 +205,18 @@ int main (void)
 ![Flowchart for Even or Odd Integers With Modulus](/assignment_02/03_01_even_or_odd_integers_modulus/even_or_odd_integers_modulus_flowchart.png)
 
 ```c
+// Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 33
+// (a) pseudocode:
+//			number = int(input("Enter an integer: "))
+//			if number % 2 == 0:
+//			    print(str(number) + " is even.\n")
+//			else:
+//			    print(str(number) + " is odd.\n")
+// 
+// (b) double selection, if ... else ...
+// 
+// (c) flowchart included in the README.md of assignment_02 under "03 Even or Odd Integers" "03-01 With Modulus"
+
 // Algorithm for the program: even_or_odd_integers_modulus
 // 1. Begin.
 // 2. Read in the value of an integer, store it in number.

@@ -2,6 +2,18 @@
 // SX180357CSJS04
 // Randy Tan Shaoxian
 
+// Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 19
+// (a) input: tempeerature in degrees farenheit
+// 	   process: celcius = (farenheit - 32) * 5 / 9
+// 	   output: temperature in degrees celcius
+//
+// (b) pseudocode:
+//			farenheit = input("Enter a temperature in degrees Farenheit: ")
+//			celcius = (float(farenheit) - 32) * 5 / 9
+//			print("%.2f" % celcius)
+//
+// (c) flowchart included in the README.md of assignment_02 under "01 Farenheit to Celcius"
+
 // Algorithm for the program: farenheit_to_celcius
 // 1. Begin.
 // 2. Read in the value of the temperature in degrees Farenheit, store it in farenheit.
