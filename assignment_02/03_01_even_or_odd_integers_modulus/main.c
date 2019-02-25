@@ -4,11 +4,12 @@
 
 // Algorithm for the program: even_or_odd_integers_modulus
 // 1. Begin.
-// 2. Read in the value of an integer, store in number.
-// 3. If number % 2 == 0 go to the next step, otherwise go to step 5.
+// 2. Read in the value of an integer, store it in number.
+// 3. If number % 2 == 0 go to the next step, otherwise go to step 6.
 // 4. Write number " is even." to the output.
-// 5. Write number " is odd." to the output.
-// 6. End.
+// 5. Go to step 7.
+// 6. Write number " is odd." to the output.
+// 7. End.
 
 // Input & Output 1
 //

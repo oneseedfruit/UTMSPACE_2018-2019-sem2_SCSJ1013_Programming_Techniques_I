@@ -195,11 +195,12 @@ int main (void)
 ```c
 // Algorithm for the program: even_or_odd_integers_modulus
 // 1. Begin.
-// 2. Read in the value of an integer, store in number.
-// 3. If number % 2 == 0 go to the next step, otherwise go to step 5.
+// 2. Read in the value of an integer, store it in number.
+// 3. If number % 2 == 0 go to the next step, otherwise go to step 6.
 // 4. Write number " is even." to the output.
-// 5. Write number " is odd." to the output.
-// 6. End.
+// 5. Go to step 7.
+// 6. Write number " is odd." to the output.
+// 7. End.
 
 
 #include <stdio.h>
@@ -248,4 +249,71 @@ int main (void)
 // 
 // Output
 // 7654 is even.
+```
+
+
+### With Integer Division and Multiplication
+
+```c
+// ALgorithm for the program: even_or_odd_integers_divide_multiply
+// 1. Begin.
+// 2. Read in the value of an integer, store it in number.
+// 3. Do an integer divsion on number, divide it by 2 and store it in test_number.
+// 4. Multiply test_number by 2 and assign it back to test_number.
+// 5. If test_number == number, go to the next step, otherwise go to step 8.
+// 6. Write number " is even." to the output.
+// 7. Go to step 9.
+// 8. Write number " is odd." to the output.
+// 9. End.
+
+
+#include <stdio.h>
+
+int main (void)
+{
+	int number, test_number;
+	
+	printf("Enter an integer: ");
+	scanf("%d", &number);
+	
+	test_number = number / 2;
+	test_number *= 2;
+	
+	if (test_number == number)
+	{
+		printf("%d is even.\n", number);
+	}
+	else
+	{
+		printf("%d is odd.\n", number);
+	}
+	
+	return 0;
+}
+```
+
+```c
+// Input & Output 1
+// 
+// Input
+// Enter an integer: 55
+//
+// Output
+// 55 is odd.
+
+// Input & Output 2
+// 
+// Input
+// Enter an integer: 8
+// 
+// Output
+// 8 is even.
+
+// Input & Output 3
+//
+// Input
+// Enter an integer: 1158
+//
+// Output
+// 1158 is even.
 ```
