@@ -425,7 +425,7 @@ int main (void)
 // 1. Begin.
 // 2. Assign the smallest possible float to variable largest.
 // 3. Assign the largest possible float to variable smallest.
-// 4. Assign 0 to inputCount.
+// 4. Assign 0 to input_count.
 // 5. Read in the value of a number, store it in number.
 // 6. If scanf("%f", &number) does not equal 0, number is not invalid,
 //    go to the next step, otherwise go to step 13.
@@ -433,9 +433,9 @@ int main (void)
 // 8. Assign number to largest.
 // 9. If smallest is greater than number, go to the next step, otherwise go to step 11.
 // 10. Assign number to smallest.
-// 11. Assign inputCount + 1 back to inputCount itself.
+// 11. Assign input_count + 1 back to input_count itself.
 // 12. Go back to step 5.
-// 13. If inputCount is greater than or equal to 2 and largest subtracted by smallest 
+// 13. If input_count is greater than or equal to 2 and largest subtracted by smallest 
 //     is greater than 0.001, go to the next step, otherwise go to step 17.
 // 14. Write largest to output.
 // 15. Write smallest to output.
@@ -453,8 +453,8 @@ int main (void)
        
     printf("Enter at least 2 real numbers, separated by the ENTER key, enter anything else to stop:\n");    
     
-    int inputCount;
-    for (inputCount = 0; scanf("%f", &number) != 0; ++inputCount)
+    int input_count;
+    for (input_count = 0; scanf("%f", &number) != 0; ++input_count)
     {     
         if (largest < number) 
         {
@@ -467,7 +467,7 @@ int main (void)
         }
     }    
     
-    if (inputCount >= 2 && (largest - smallest) > 0.001)
+    if (input_count >= 2 && (largest - smallest) > 0.001)
     {
         printf("\n%.2f is the largest number.\n", largest);
         printf("%.2f is the smallest number.", smallest);     
