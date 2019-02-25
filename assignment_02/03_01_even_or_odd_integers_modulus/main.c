@@ -11,7 +11,7 @@
 //			    print(str(number) + " is odd.\n")
 // 
 // (b) double selection, if ... else ...
-// 
+//     
 // (c) flowchart included in the README.md of assignment_02 under "03 Even or Odd Integers" "03-01 With Modulus"
 
 // Algorithm for the program: even_or_odd_integers_modulus

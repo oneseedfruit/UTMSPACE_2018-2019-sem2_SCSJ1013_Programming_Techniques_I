@@ -16,8 +16,8 @@
 ```c
 // Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 19
 // (a) input: tempeerature in degrees farenheit
-// 	   process: celcius = (farenheit - 32) * 5 / 9
-// 	   output: temperature in degrees celcius
+//     process: celcius = (farenheit - 32) * 5 / 9
+//     output: temperature in degrees celcius
 //
 // (b) pseudocode:
 //			farenheit = input("Enter a temperature in degrees Farenheit: ")
