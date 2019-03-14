@@ -11,7 +11,7 @@
 
 ## 01 Fahrenheit to Celcius
 
-![Flowchart for Fahrenheit to Celcius](/assignment_02/01_farenheit_to_celcius/farenheit_to_celcius_flowchart.png)
+![Flowchart for Fahrenheit to Celcius](/assignment_02/01_fahrenheit_to_celcius/fahrenheit_to_celcius_flowchart.png)
 
 ```c
 // Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 19
