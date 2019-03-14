@@ -9,27 +9,27 @@
 ```
 
 
-## 01 Farenheit to Celcius
+## 01 Fahrenheit to Celcius
 
-![Flowchart for Farenheit to Celcius](/assignment_02/01_farenheit_to_celcius/farenheit_to_celcius_flowchart.png)
+![Flowchart for Fahrenheit to Celcius](/assignment_02/01_farenheit_to_celcius/farenheit_to_celcius_flowchart.png)
 
 ```c
 // Slides: Faculty of Computing @2017/2018-1 Chapter 3 Page 19
-// (a) input: tempeerature in degrees farenheit
-//     process: celcius = (farenheit - 32) * 5 / 9
+// (a) input: tempeerature in degrees fahrenheit
+//     process: celcius = (fahrenheit - 32) * 5 / 9
 //     output: temperature in degrees celcius
 //
 // (b) pseudocode:
-//          farenheit = input("Enter a temperature in degrees Farenheit: ")
-//          celcius = (float(farenheit) - 32) * 5 / 9
+//          fahrenheit = input("Enter a temperature in degrees Fahrenheit: ")
+//          celcius = (float(fahrenheit) - 32) * 5 / 9
 //          print("%.2f" % celcius)
 //
-// (c) flowchart included in the README.md of assignment_02 under "01 Farenheit to Celcius"
+// (c) flowchart included in the README.md of assignment_02 under "01 Fahrenheit to Celcius"
 
 // Algorithm for the program: farenheit_to_celcius
 // 1. Begin.
-// 2. Read in the value of the temperature in degrees Farenheit, store it in farenheit.
-// 3. Assign (farenheit - 32.0) * 5.0 / 9.0 to the variable celcius.
+// 2. Read in the value of the temperature in degrees Fahrenheit, store it in fahrenheit.
+// 3. Assign (fahrenheit - 32.0) * 5.0 / 9.0 to the variable celcius.
 // 4. Write the value of celcius to the output.
 // 5. End.
 
@@ -38,14 +38,14 @@
 
 int main (void) 
 {
-	float farenheit, celcius;
+	float fahrenheit, celcius;
 	
-	printf("Enter a temperature in degrees Farenheit: ");
-	scanf("%f", &farenheit);
+	printf("Enter a temperature in degrees Fahrenheit: ");
+	scanf("%f", &fahrenheit);
 	
-	celcius = (farenheit - 32.0) * 5.0 / 9.0;
+	celcius = (fahrenheit - 32.0) * 5.0 / 9.0;
 	
-	printf("%.2f degrees Farenheit is %.2f degrees Celcius.\n", farenheit, celcius);
+	printf("%.2f degrees Fahrenheit is %.2f degrees Celcius.\n", fahrenheit, celcius);
 	
 	return 0;
 }
@@ -56,26 +56,26 @@ int main (void)
 // Input & Output 1
 // 
 // Input
-// Enter a temperature in degrees Farenheit: 32
+// Enter a temperature in degrees Fahrenheit: 32
 //
 // Output
-// 32.00 degrees Farenheit is 0.00 degrees Celcius.
+// 32.00 degrees Fahrenheit is 0.00 degrees Celcius.
 
 // Input & Output 2
 //
 // Input
-// Enter a temperature in degrees Farenheit: 5
+// Enter a temperature in degrees Fahrenheit: 5
 //
 // Output
-// 5.00 degrees Farenheit is -15.00 degrees Celcius.
+// 5.00 degrees Fahrenheit is -15.00 degrees Celcius.
 
 // Input & Output 3
 // 
 // Input
-// Enter a temperature in degrees Farenheit: 99
+// Enter a temperature in degrees Fahrenheit: 99
 //
 // Output
-// 99.00 degrees Farenheit is 37.22 degrees Celcius.
+// 99.00 degrees Fahrenheit is 37.22 degrees Celcius.
 ```
 
 
