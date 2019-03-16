@@ -44,10 +44,10 @@ int main (void)
 	const int NUMBER_OF_LINES = 5;
 	
 	float score_1, score_2, score_3, score_4, score_5, sum, average;	
-    char name[NAME_CHARACTER_COUNT];
+	char name[NAME_CHARACTER_COUNT];
 	
 	fprintf(out_file, "<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n");
-    fprintf(out_file, "STUDENTS                ENG\t\tMAT\t\tSCI\t\tHIS\t\tARTS\tSUM\t\tAVG\n");	
+	fprintf(out_file, "STUDENTS                ENG\t\tMAT\t\tSCI\t\tHIS\t\tARTS\tSUM\t\tAVG\n");	
 	fprintf(out_file, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\n");
 	
 	int i;
@@ -112,7 +112,7 @@ int main (void)
 //
 // Output (from the file "out_file")
 // <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
-// STUDENTS                ENG		MAT		SCI		HIS		ARTS	SUM		AVG
+// STUDENTS                ENG		MAT     SCI     HIS     ARTS    SUM     AVG
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // Eenie                   56.00	98.00	53.00	25.00	25.00	257.00	51.40
 // Meanie                  12.00	52.00	85.00	69.00	33.00	251.00	50.20
