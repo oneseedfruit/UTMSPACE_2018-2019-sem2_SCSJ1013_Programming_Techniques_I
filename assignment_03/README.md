@@ -84,7 +84,7 @@ int main (void)
 // Moe                       23 58 77 78 52
 // Ein                       12 20 36 98 77
 //
-// Output (display in the terminal)
+// Output (displayed in the terminal)
 // Eenie
 //  Scores: 56.00 98.00 53.00 25.00 25.00
 //  Sum: 257.00
