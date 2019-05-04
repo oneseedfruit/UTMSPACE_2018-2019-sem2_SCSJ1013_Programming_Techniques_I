@@ -24,6 +24,7 @@
 // 10. Pass the value of num_1 and the value of num_2 to the function divide, then write its return value to the output.
 // 11. End.
 
+
 #include <stdio.h>
 
 float add (float, float);
@@ -132,6 +133,7 @@ float divide (float num_1, float num_2)
 // 23. Close the file "bill_input_file".
 // 24. Close the file "bill_output_file".
 // 25. End.
+
 
 #include <stdio.h>
 #include <math.h>
