@@ -33,6 +33,7 @@
 // 17. Close the file "out_file".
 // 18. End.
 
+
 #include <stdio.h>
 
 int main (void)
