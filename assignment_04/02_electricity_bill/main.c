@@ -1,5 +1,6 @@
-#include <stdio.h>
-#include <math.h>
+// UTMSPACE_2018-2019-sem2_SCSJ1013_Programming_Techniques_I
+// SX180357CSJS04
+// Randy Tan Shaoxian
 
 // Algorithm for the program: electricity_bill
 // 1. Begin.
@@ -60,6 +61,11 @@
 //
 // ==================================
 //
+
+
+#include <stdio.h>
+#include <math.h>
+
 
 int main()
 {		
