@@ -66,7 +66,6 @@
 #include <stdio.h>
 #include <math.h>
 
-
 int main()
 {		
 	// 0 to 200: 21.8
