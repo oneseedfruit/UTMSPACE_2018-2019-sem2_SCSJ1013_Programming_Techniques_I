@@ -18,10 +18,36 @@
 // Input & Output 1
 // 
 // Input
-//
+// Enter two numbers: 5 6
 //
 // Output
+// Their sum is: 11.00
+// Their difference is: -1.00
+// Their product is: 30.00
+// Their quotient is: 0.83
+
+// Input & Output 2
+// 
+// Input
+// Enter two numbers: 3.14159 1.61803
 //
+// Output
+// Their sum is: 4.76
+// Their difference is: 1.52
+// Their product is: 5.08
+// Their quotient is: 1.94
+
+// Input & Output 3
+// 
+// Input
+// Enter two numbers: 2.71828 1.41421
+//
+// Output 
+// Their sum is: 4.13
+// Their difference is: 1.30
+// Their product is: 3.84
+// Their quotient is: 1.92
+
 
 #include <stdio.h>
 
