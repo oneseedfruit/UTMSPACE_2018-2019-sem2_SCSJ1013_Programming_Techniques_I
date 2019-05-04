@@ -28,6 +28,39 @@
 // 24. Close the file "bill_output_file".
 // 25. End.
 
+// Input & Output 1
+// 
+// Input (from the file "bill_input_file")
+// 592.168
+// 327.0
+// 200.1
+// 478.2
+// 804.1415
+//
+// Output (from the file "bill_output_file")
+// ==================================
+// Total units consumed is 592.17 kWh
+// Total payment required is RM227.76
+//
+// ==================================
+// Total units consumed is 327.00 kWh
+// Total payment required is RM90.93
+//
+// ==================================
+// Total units consumed is 200.10 kWh
+// Total payment required is RM43.63
+//
+// ==================================
+// Total units consumed is 478.20 kWh
+// Total payment required is RM168.95
+//
+// ==================================
+// Total units consumed is 804.14 kWh
+// Total payment required is RM343.26
+//
+// ==================================
+//
+
 int main()
 {		
 	// 0 to 200: 21.8
@@ -91,3 +124,4 @@ int main()
 	
 	return 0;
 }
+
