@@ -108,6 +108,8 @@ float divide (float num_1, float num_2)
 
 ## 02 Electricity Bill
 
+![Flowchart for Electricity Bill](/assignment_04/02_electricity_bill/electricity_bill_flowchart.png)
+
 ```c
 // Algorithm for the program: electricity_bill
 // 1. Begin.
