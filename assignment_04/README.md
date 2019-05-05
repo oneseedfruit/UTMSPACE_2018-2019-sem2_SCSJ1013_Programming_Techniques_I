@@ -10,6 +10,8 @@
 
 ## 01 Arithmetic With Functions
 
+![Flowchart for Arithmetic With Functions](/assignment_04/01_arithmetic_with_functions/arithmetic_with_functions_flowchart.png)
+
 ```c
 // Algorithm for the program: arithmetic_with_functions
 // 1. Begin.
