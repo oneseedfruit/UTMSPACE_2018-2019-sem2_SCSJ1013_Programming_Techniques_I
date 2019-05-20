@@ -43,7 +43,7 @@ void bubble_sort(int[], int);
 
 int main (void)
 {
-    int num[] = {9, 12, 20, 15, 1};
+    int num[] = { 9, 12, 20, 15, 1 };
     int element_count = sizeof(num) / sizeof(int);
     
     printf("Elements\n\t");
