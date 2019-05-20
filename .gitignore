@@ -2,9 +2,4 @@
 *.o
 *.exe
 Makefile.win
-.vscode/ipch/a9f9d5a36c051a01/mmap_address.bin
-.vscode/ipch/a9f9d5a36c051a01/main.ipch
-.vscode/ipch/1d7bec673260fe40/mmap_address.bin
-.vscode/ipch/1d7bec673260fe40/main.ipch
-.vscode/ipch/247435b5a83a5f37/main.ipch
-.vscode/ipch/247435b5a83a5f37/mmap_address.bin
+.vscode/*
