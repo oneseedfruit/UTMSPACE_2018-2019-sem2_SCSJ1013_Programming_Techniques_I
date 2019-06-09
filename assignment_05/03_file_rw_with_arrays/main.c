@@ -1,3 +1,7 @@
+// UTMSPACE_2018-2019-sem2_SCSJ1013_Programming_Techniques_I
+// SX180357CSJS04
+// Randy Tan Shaoxian
+
 #include <stdio.h>
 
 int main (void)
