@@ -8,3 +8,4 @@ Source code, flowcharts, and other relevant files for the SCSJ1013 Programming T
 * ![Assignment 03](/assignment_03/) (lecture session on 9 February 2019)
 * ![Assignment 04](/assignment_04/) (lecture session on 7 April 2019)
 * ![Assignment 05](/assignment_05/) (lecture session on 5 May 2019)
+* ![Assignment 06](/assignment_06_extra_programs/) (extra programs)
