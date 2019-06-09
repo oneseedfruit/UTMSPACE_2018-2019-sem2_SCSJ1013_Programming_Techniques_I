@@ -127,7 +127,8 @@ int main (void)
     printf("Enter a number to get its square root: ");    
     scanf("%d", &num);
     
-    printf ("The square root of %d is %.3f.\n", num, sqrt_val (num));
+    printf("The square root of %d is %.3f.\n", num, sqrt_val(num));
+
     return 0;
 }
 
@@ -141,7 +142,7 @@ float sqrt_val (float num)
     const float EPSILON = .00001;
     float guess = 1.0;
 
-    while (abs_val (guess * guess - num) >= EPSILON)
+    while (abs_val(guess * guess - num) >= EPSILON)
     {
         guess = (num / guess + guess) / 2.0;
     }
