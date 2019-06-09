@@ -111,3 +111,41 @@ int get_triangular_number (int num)
     return triangular_number;
 }
 ```
+
+## 04 Absolute Value and Square Root Without math.h Using the Newton-Raphson Method
+
+```c
+#include <stdio.h>
+
+float abs_val (float num);
+float sqrt_val (float num);
+
+int main (void)
+{
+    int num;
+    
+    printf("Enter a number to get its square root: ");    
+    scanf("%d", &num);
+    
+    printf ("The square root of %d is %.3f.\n", num, sqrt_val (num));
+    return 0;
+}
+
+float abs_val (float num)
+{    
+    return (num < 0) ? -num : num;
+}
+
+float sqrt_val (float num)
+{
+    const float EPSILON = .00001;
+    float guess = 1.0;
+
+    while (abs_val (guess * guess - num) >= EPSILON)
+    {
+        guess = (num / guess + guess) / 2.0;
+    }
+    
+    return guess;
+}
+```
