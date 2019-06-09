@@ -52,3 +52,29 @@ int main (void)
     return 0;
 }
 ```
+
+## 02 Greatest Common Divisor Between Two Positive Integers
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    int m, n;
+
+    printf("Input two positive integers: ");
+    scanf("%d%d", &m, &n);
+
+    int r = m % n;
+    while (r != 0)
+    {
+        m = n;
+        n = r;
+        r = m % n;
+    }
+
+    printf("Their greatest common divisor is %d\n", n);
+
+    return 0;
+}
+```
