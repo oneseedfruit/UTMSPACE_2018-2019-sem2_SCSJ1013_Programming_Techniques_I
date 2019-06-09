@@ -89,11 +89,11 @@ int get_triangular_number (int num);
 int main (void)
 {
     int num;
-    
+
     printf("Enter an integer to get its triangular number: ");
     scanf("%d", &num);
 
-    printf("The triangular number of %d is %i\n", num, get_triangular_number(num));
+    printf("The triangular number of %d is %d\n", num, get_triangular_number(num));
     
     return 0;
 }
