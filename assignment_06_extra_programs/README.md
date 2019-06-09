@@ -150,3 +150,36 @@ float sqrt_val (float num)
     return guess;
 }
 ```
+
+## 05 Getting the First n Numbers in a Fibonacci Sequence
+
+```c
+#include <stdio.h>
+
+int get_fibonacci_numbers (int num);
+
+int main (void)
+{
+    int n;
+    
+    printf("How many numbers in the Fibonacci sequence to generate?: ");
+    scanf("%d", &n);
+    
+    printf("The first %d numbers in the Fibonacci sequence are: ", n);
+    
+    int i;
+    for (i = 0; i < n; ++i)
+    {
+        printf ("%d ", get_fibonacci_numbers(i));
+    }    
+    
+    printf("\n");
+    
+    return 0;
+}
+
+int get_fibonacci_numbers(int num)
+{
+    return num < 2 ? num : get_fibonacci_numbers(num - 1) + get_fibonacci_numbers(num - 2);    
+}
+```
