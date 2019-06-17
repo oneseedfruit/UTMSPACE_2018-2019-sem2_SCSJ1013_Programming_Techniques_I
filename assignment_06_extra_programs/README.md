@@ -237,3 +237,45 @@ unsigned long long combination (int n, int r)
     return permutation(n, r) / factorial(r);
 }
 ```
+
+## 07 Pythagorean Triples
+
+```c
+#include <stdio.h>
+
+int main (void)
+{
+    int n = 100;
+    
+    printf("Enter in integer, n, where n^2 is the perimeter: ");
+    scanf("%d", &n);
+    
+    int count = 0;
+        
+    printf("The Pythagoras triples up to %d^2 are:\n", n);
+    
+    int a, b, c;
+    for (a = 0; a < n; ++a)
+    {
+        for (b = 0; b < n; ++b)
+        {
+            for (c = 0; c < n; ++c)
+            {
+                if (a < b && b < c)
+                {
+                    if (a * a + b * b == c * c)
+                    {
+                        printf("(%d, %d, %d) where %d < %d < %d and ", a, b, c, a, b, c);
+                        printf("%d^2 + %d^2 = %d^2\n", a, b, c);
+                        count += 3;                        
+                    }
+                }
+            }
+        }
+    }
+    
+    printf("and there are a total of %d integers.\n", count);
+    
+    return 0;
+}
+```
