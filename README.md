@@ -21,4 +21,6 @@ Source code, flowcharts, and other relevant files for the SCSJ1013 Programming T
 
 ### Exam Result
 
+*To show that code in this repository can be relied on as a reference for future students if they are taught C in the same subject.*
+
 ![Result](result.png?raw=true)
